@@ -1,0 +1,32 @@
+/*此文件是存放博客文章内容的css的 blog_list.html blog_detail*/
+
+ul.blog-types{ 
+	list-style-type: none;
+}
+div.blog:not(:last-child){  /*除了最后一个其他都设置为下面的格式*/
+    margin-bottom: 2em;
+    padding-bottom: 1em; /* 内边距*/
+    border-bottom: 2px solid #e8e4e4;	 /* 下方的实线*/
+}
+div.blog h3{
+	margin-top: 0.5em;  /* 将上边距设置为0.5个字的大小*/
+}
+div.blog p.blog-info{
+	margin-bottom: 2px;   /* 发表时间和正文之间的间距 */
+}
+div.paginator{
+	text-align: center; /* 文本居中 */
+}
+
+ul.blog-info-description{
+	list-style-type: none;
+	margin-bottom: 1em;  </*和下放模块的间距*/>
+}
+ul.blog-info-description li{
+	display: inline-block;  /*将li标签设置为一行*/
+	margin-right: 1em;	</* 几个li标签之间的间距*/>
+}
+div.blog-content {
+	text-indent: 2em; /*首行缩进*/
+
+}

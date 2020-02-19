@@ -1,0 +1,7 @@
+*{
+	margin: 0;
+	padding: 0; /* 将页面所有的边距设为0 */
+}
+body{
+	margin-top: 55px!important;    /* 应该导航栏一直的顶部  遮挡部分文字 所以body部分需要下移50px*/
+}
